@@ -47,7 +47,7 @@ var uiAssets embed.FS
 //go:embed generated/openapi/index.html
 var swaggeruiHTML []byte
 
-//go:embed all:generated/openapi
+//go:embed generated/openapi
 var swaggeruiAssets embed.FS
 
 type (
