@@ -41,7 +41,7 @@ import (
 	"github.com/temporalio/ui-server/v2/server/server_options"
 )
 
-//go:embed all:generated/ui
+//go:embed generated/ui
 var uiAssets embed.FS
 
 //go:embed generated/openapi/index.html
